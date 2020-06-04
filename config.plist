@@ -668,6 +668,22 @@
 				<key>BundlePath</key>
 				<string>SmallTreeIntel82576.kext</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>NVMEFix</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>Enabled</key>
+				<true/>
+				<key>MinKernel</key>
+				<string></string>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/NVMeFix</string>
+				<key>BundlePath</key>
+				<string>NVMeFix.kext</string>
+			</dict>
 		</array>
 		<key>Block</key>
 		<array>
