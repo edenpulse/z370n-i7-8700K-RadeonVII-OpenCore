@@ -499,6 +499,8 @@
 				<string>Audio device</string>
 				<key>model</key>
 				<string>300 Series PCH HD Audio</string>
+				<key>layout-id</key>
+				<data>CwAAAA==</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1F,0x4)</key>
 			<dict>
@@ -590,13 +592,13 @@
 			</dict>
 			<dict>
 				<key>BundlePath</key>
-				<string>AppleHDADisabler.kext</string>
+				<string>AppleALC.kext</string>
 				<key>Comment</key>
-				<string>Audio patches</string>
+				<string>Audio Patches</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/Disabler</string>
+				<string>Contents/MacOS/AppleALC</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -689,11 +691,11 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string></string>
+				<string>Disable AppleGFXHDA</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Identifier</key>
-				<string>com.apple.driver.AppleTyMCEDriver</string>
+				<string>com.apple.driver.AppleGFXHDA</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -950,7 +952,7 @@
 				<key>DefaultBackgroundColor</key>
 				<data>AAAAAA==</data>
 				<key>UIScale</key>
-				<data>AQ==</data>
+				<data>Ag==</data>
 			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
@@ -1126,7 +1128,7 @@
 			<key>ReplaceTabWithSpace</key>
 			<false/>
 			<key>Resolution</key>
-			<string>3440x1440</string>
+			<string>Max</string>
 			<key>SanitiseClearScreen</key>
 			<false/>
 			<key>TextRenderer</key>
