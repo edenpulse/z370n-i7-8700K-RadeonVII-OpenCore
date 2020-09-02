@@ -330,6 +330,12 @@
 				<string>onboard-1</string>
 				<key>model</key>
 				<string>AMD Radeon VII</string>
+				<key>Force_Load_FalconSMUFW</key>
+				<true/>
+				<key>PP_WorkLoadPolicyMask</key>
+				<integer>1</integer>
+				<key>ATY,EFIVersionB</key>
+				<string>EDENBOOST</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x1)</key>
 			<dict>
@@ -705,24 +711,6 @@
 				<string>Contents/MacOS/NVMeFix</string>
 				<key>BundlePath</key>
 				<string>NVMeFix.kext</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>x86_64</string>
-				<key>Comment</key>
-				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-				<key>Enabled</key>
-				<true/>
-				<key>MinKernel</key>
-				<string></string>
-				<key>ExecutablePath</key>
-				<string></string>
-				<key>BundlePath</key>
-				<string>RadeonBoost.kext</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
